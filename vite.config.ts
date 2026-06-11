@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/Health-buddy/",  // 👈 Required for GitHub Pages
+  base: "/",  // 👈 Required for GitHub Pages
   server: {
     host: "::",
     port: 8080,
